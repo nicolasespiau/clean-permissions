@@ -1,0 +1,15 @@
+{
+    "NODE_ENV": "prod",
+    "PORT": "443",
+    "LOG_LEVEL": "error",
+    "LOG_FORMAT": "splat,simple",
+    "JWT_SECRET": "myideapool-session-secret",
+    "SSL_ENABLED": true,
+    "SSL_KEY_FILE": "/etc/letsencrypt/live/my-idea-pool.stilll.fr/privkey.pem",
+    "SSL_CERT_FILE": "/etc/letsencrypt/live/my-idea-pool.stilll.fr/cert.pem",
+    "MONGO_DB": "ideapool",
+    "MONGO_HOST": "10.0.0.31",
+    "MONGO_PORT": 27017,
+    "MONGO_USER": "ideapooladmin",
+    "MONGO_PASSWD": "1de4P00l"
+}
